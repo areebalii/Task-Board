@@ -8,6 +8,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
 }
+
 /* Top Section Styling */
 .top-section {
   display: flex;
@@ -70,27 +71,22 @@ body {
   padding: 5px;
   margin-left: 18px;
 }
+
 /* Hero section Styling */
-.three-col-section{
-  /* display: grid;
-  background-color: white;
-  grid-template-columns: 3fr 6fr 3fr; */
+.three-col-section {
   display: flex;
-  /* align-items: center;
-  justify-content: space-between;
-  margin-top: 12px; */
 }
-.left-section{
+
+.left-section {
   background-color: white;
-  width: 15%;
-  margin-right: 12px;
+  width: 21%;
 }
-.left-section h4{
+.left-section h4 {
   margin-top: 10px;
   margin-left: 5px;
   color: gray;
 }
-.left-section p{
+.left-section p {
   width: 100%;
   font-size: 20px;
   padding: 15px 10px;
@@ -98,122 +94,297 @@ body {
   color: gray;
   cursor: pointer;
 }
-.left-section .home{
+.left-section .home {
   background-color: black;
   color: white;
   width: 60%;
   border-radius: 5px;
   padding: 8px;
 }
+
 /* Middle Section Styling */
-.middle-section{
-  /* background-color: white; */
+.middle-section {
   padding: 15px;
 }
-.task-section{
+.task-section {
   background-color: white;
   padding: 10px;
 }
-.task-card-section{
+.task-card-section {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 7px;
 }
-.task-section h2{
+.task-section h2 {
   font-size: 18px;
   margin-left: 5px;
   font-weight: 900;
-  /* font-family: cursive; */
 }
-.card{
-  padding: 8px;
+.card {
+  padding: 7px;
   border-radius: 5px;
   margin: 9px;
 }
-.card i{
+.card i {
   font-size: 16px;
   padding: 9px;
   border-radius: 50%;
   margin-top: 4px;
 }
-.card p{
+.card p {
   color: gray;
   margin-top: 9px;
 }
-.card h2{
+.card h2 {
   margin-top: 9px;
-  color: #2A2A2A;
+  color: #2a2a2a;
   font-weight: 900;
   font-size: 25px;
 }
-.green{
-  background-color: #E8F4D8;
+.green {
+  background-color: #e8f4d8;
 }
-.green i{
-  background-color: #7EAF44;
+.green i {
+  background-color: #7eaf44;
   color: white;
 }
-.blue{
-  background-color: #E6F7FF;
+.blue {
+  background-color: #e6f7ff;
 }
-.blue i{
-  background-color: #D2D2D2;
+.blue i {
+  background-color: #d2d2d2;
   color: white;
 }
-.purple{
-  background-color: #DCDEFF;
+.purple {
+  background-color: #dcdeff;
 }
-.purple i{
-  background-color: #4E5AF8;
+.purple i {
+  background-color: #4e5af8;
   color: white;
 }
-.red{
-  background-color: #FFDCCD;
+.red {
+  background-color: #ffdccd;
 }
-.red i{
-  background-color: #FA4D35;
+.red i {
+  background-color: #fa4d35;
   color: white;
 }
 
-.recent-visit{
+.recent-visit {
   background-color: #fff;
   padding: 10px;
   margin-top: 15px;
 }
-.recently-cards{
+.recently-cards {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.recent-visit h2{
+.recent-visit h2 {
   margin-bottom: 12px;
 }
-.recent-card{
+.recent-card {
   width: 220px;
 }
-.recent-card img{
+.recent-card img {
   width: 100%;
   height: 150px;
 }
-.recent-card h3{
+.recent-card h3 {
   font-weight: 900;
   margin-top: 12px;
 }
-.recent-card p{
+.recent-card p {
   color: gray;
   margin-top: 5px;
 }
 
-
-
-
-
-
-
-
 /* Right Section Styling */
-.right-section{
+.right-section {
   background-color: #fff;
-  margin-left: 12px;
+  margin-top: 10px;
+  width: 35%;
+  padding: 10px;
+}
+.right-section .urgency-task {
+  padding: 10px;
+  width: 100%;
+}
+.right-section .urgency-task h2 {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.right-section .project {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.right-section .project p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  width: 50%;
+}
+.right-section .progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.right-section .progress {
+  display: block;
+  height: 100%;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/* Chat Section Styling */
+.chat-section {
+  margin-top: 20px;
+}
+.chat-section h2 {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.chat-user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.chat-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.chat-details {
+  flex: 1;
+}
+.chat-details h3 {
+  font-size: 14px;
+  font-weight: 900;
+}
+.chat-details p {
+  font-size: 12px;
+  color: gray;
+}
+.chat-details .time {
+  font-size: 10px;
+  color: gray;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .top-section {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .search-section {
+    width: 70%; /* Reduced width for tablets */
+  }
+
+  .three-col-section {
+    flex-direction: row; /* Keep sections side by side */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+  }
+
+  .left-section,
+  .middle-section,
+  .right-section {
+    width: 48%; /* Reduced width for tablets */
+    margin-bottom: 20px; /* Add spacing between sections */
+  }
+
+  .task-card-section {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 45%; /* Adjust card width for tablets */
+    margin: 5px;
+  }
+
+  .recently-cards {
+    flex-wrap: wrap;
+  }
+
+  .recent-card {
+    width: 48%; /* Adjust recent card width for tablets */
+    margin-bottom: 10px;
+  }
+
+  .right-section .project {
+    flex-direction: column;
+  }
+
+  .right-section .project p {
+    width: 100%;
+  }
+
+  .chat-user {
+    flex-direction: row; /* Keep chat users in a row */
+    align-items: center;
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .top-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .search-section {
+    width: 100%; /* Full width for mobile */
+  }
+
+  .three-col-section {
+    flex-direction: column; /* Stack sections one after another */
+  }
+
+  .left-section,
+  .middle-section,
+  .right-section {
+    width: 100%; /* Full width for mobile */
+    margin-bottom: 20px; /* Add spacing between sections */
+  }
+
+  .card {
+    width: 100%; /* Full width for cards on mobile */
+    margin: 5px 0;
+  }
+
+  .recent-card {
+    width: 100%; /* Full width for recent cards on mobile */
+  }
+
+  .right-section .project p {
+    font-size: 12px;
+  }
+
+  .chat-user {
+    flex-direction: row; /* Keep chat users in a row */
+    align-items: center;
+  }
+
+  .chat-details h3 {
+    font-size: 12px;
+  }
+
+  .chat-details p {
+    font-size: 10px;
+  }
+
+  .chat-details .time {
+    font-size: 8px;
+  }
 }
